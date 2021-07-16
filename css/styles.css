@@ -3,6 +3,7 @@
 @import url(../css/search-bar.css);
 @import url(../css/main.css);
 @import url(../css/card.css);
+@import url(../css/footer.css);
 
 :root {
     --fontBase: 'DM Sans', sans-serif;
@@ -10,8 +11,15 @@
     --dorado: #C5B61D;
     --bordeClaro: #FBFCDE;
     --white: white;
+    --black: black;
+    --grisClaro: rgba(72, 72, 72, 0.5);
+    --grisOscuro: #484848;
 }
 
 body {
     font-family: var(--fontBase);
+}
+
+p {
+    margin: 0 auto;
 }
