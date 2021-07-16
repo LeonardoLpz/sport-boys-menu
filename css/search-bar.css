@@ -1,0 +1,16 @@
+/* Search Bar */
+.search-bar {
+    margin-block-start: 150px;
+    margin-block-end: 80px;
+    position: sticky;
+    top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-bar input {
+    height: 50px;
+    border: 2px solid var(--red);
+    border-radius: 4px;
+    font-style: italic;
+}

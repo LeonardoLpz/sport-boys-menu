@@ -1,0 +1,15 @@
+@import url(../css/wrapper.css);
+@import url(../css/header.css);
+@import url(../css/search-bar.css);
+@import url(../css/main.css);
+@import url(../css/card.css);
+
+:root {
+    --fontBase: 'DM Sans', sans-serif;
+    --red: #730000;
+    --white: white;
+}
+
+body {
+    font-family: var(--fontBase);
+}
