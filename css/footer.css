@@ -4,6 +4,11 @@
     padding-inline-start: 40px;
 }
 
+/* Para dar margin top al footer */
+.footer {
+    margin-block-start: 50px;
+}
+
 /* Sección gris claro */
 .footer__topLevel {
     background-color: var(--grisClaro);
