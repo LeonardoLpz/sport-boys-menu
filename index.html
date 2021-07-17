@@ -16,13 +16,13 @@
   </head>
 
   <body>
-    <!-- HEADER -->
+    <!-- COMPONENT: HEADER -->
     <header class="header">
       <div class="wrapper">
         <nav>
           <img src="./img/logo.png" alt="" />
           <div class="nav-sections">
-            <a href="">menu</a>
+            <a href="">inicio</a>
             <a href="">platillos</a>
             <a href="">promociones</a>
             <a href="">nosotros</a>
@@ -34,14 +34,15 @@
       </div>
     </header>
 
+    <!-- wrapper es para darle margenes laterales al contenido -->
     <div class="wrapper">
-      <!-- SEARCH BAR -->
+      <!-- COMPONENT: SEARCH BAR -->
       <form action="" class="search-bar">
         <input type="text" name="" id="" placeholder="¿Qué quieres comer?" />
       </form>
 
       <div class="main">
-        <!-- CARD CATEGORÍA -->
+        <!-- COMPONENT: CARD CATEGORÍA -->
         <div class="card">
           <img
             src="./img/image browser.jpg"
@@ -58,30 +59,162 @@
           />
           <p class="card__title">aperitivos</p>
         </div>
-        <div class="card">
-          <img
-            src="./img/image browser.jpg"
-            alt="Imagen que representa una categoría"
-            class="card__image"
-          />
-          <p class="card__title">aperitivos</p>
-        </div>
-        <div class="card">
-          <img
-            src="./img/image browser.jpg"
-            alt="Imagen que representa una categoría"
-            class="card__image"
-          />
-          <p class="card__title">aperitivos</p>
-        </div>
-        <!-- CARD PLATILLOS -->
-        <div class="foods">
+        <!-- COMPONENT: CARD PLATILLOS -->
+        <div class="cardFoods">
+            <div class="cardFoods__image">
+                <img src="./img/image browser.jpg   " alt="Imagen del platillo seleccionado">
 
+                <!-- Colocar información debajo de la imagen -->
+
+                <!-- COMPONENT: SOCIAL MEDIA -->
+                <div class="socialMedia">
+                    <a href="#">
+                        <img src="./img/Facebook.png" alt="Logo Facebook">
+                    </a>
+                    <a href="#">
+                        <img src="./img/Instagram.png" alt="Logo Instagram">
+                    </a>
+                    <a href="#">
+                        <img src="./img/Twitter.png" alt="Logo Twitter">
+                    </a>
+                </div>
+
+            </div>
+            <!-- <img src="./img/image browser.jpg" alt="Hamburgesa con papas" class="cardFoods__image"> -->
+            <div class="cardFoods__description">
+                <h2 class="cardFoods__title">aperitivos</h2>
+                <div class="cardFoods__list">
+    
+                    <!-- COMPONENT: ITEM DESPLEGABLE -->
+                    <div class="item">
+                        <details open class="item__details">
+                            <summary class="item__title">
+                                Hamburgesa 1
+                            </summary>
+                            <div class="item__description">
+                                <p class="item__ingredients">
+                                    Contiene pan, carne y aderezos para acompañar.
+                                </p>
+                                <p class="item__price">
+                                    $15 USD
+                                </p>
+                            </div>
+                        </details>
+                    </div>
+                    <div class="item">
+                        <details class="item__details">
+                            <summary class="item__title">
+                                Hamburgesa 2
+                            </summary>
+                            <div class="item__description">
+                                <p class="item__ingredients">
+                                    Contiene pan, carne y aderezos para acompañar.
+                                </p>
+                                <p class="item__price">
+                                    $15 USD
+                                </p>
+                            </div>
+                        </details>
+                    </div>
+                    <div class="item">
+                        <details class="item__details">
+                            <summary class="item__title">
+                                Hot Dog 1
+                            </summary>
+                            <div class="item__description">
+                                <p class="item__ingredients">
+                                    Contiene pan, carne y aderezos para acompañar.
+                                </p>
+                                <p class="item__price">
+                                    $15 USD
+                                </p>
+                            </div>
+                        </details>
+                    </div>
+                    <div class="item">
+                        <details class="item__details">
+                            <summary class="item__title">
+                                Hot Dog 2
+                            </summary>
+                            <div class="item__description">
+                                <p class="item__ingredients">
+                                    Contiene pan, carne y aderezos para acompañar.
+                                </p>
+                                <p class="item__price">
+                                    $15 USD
+                                </p>
+                            </div>
+                        </details>
+                    </div>
+                    <div class="item">
+                        <details class="item__details">
+                            <summary class="item__title">
+                                Pizza 1
+                            </summary>
+                            <div class="item__description">
+                                <p class="item__ingredients">
+                                    Contiene pan, carne y aderezos para acompañar.
+                                </p>
+                                <p class="item__price">
+                                    $15 USD
+                                </p>
+                            </div>
+                        </details>
+                    </div>
+                    <div class="item">
+                        <details class="item__details">
+                            <summary class="item__title">
+                                Pizza 2
+                            </summary>
+                            <div class="item__description">
+                                <p class="item__ingredients">
+                                    Contiene pan, carne y aderezos para acompañar.
+                                </p>
+                                <p class="item__price">
+                                    $15 USD
+                                </p>
+                            </div>
+                        </details>
+                    </div>
+                    <div class="item">
+                        <details class="item__details">
+                            <summary class="item__title">
+                                Emparedado 1
+                            </summary>
+                            <div class="item__description">
+                                <p class="item__ingredients">
+                                    Contiene pan, carne y aderezos para acompañar.
+                                </p>
+                                <p class="item__price">
+                                    $15 USD
+                                </p>
+                            </div>
+                        </details>
+                    </div>
+                    <div class="item">
+                        <details class="item__details">
+                            <summary class="item__title">
+                                Emparedado 2
+                            </summary>
+                            <div class="item__description">
+                                <p class="item__ingredients">
+                                    Contiene pan, carne y aderezos para acompañar.
+                                </p>
+                                <p class="item__price">
+                                    $15 USD
+                                </p>
+                            </div>
+                        </details>
+                    </div>
+    
+                </div>
+            </div>
         </div>
       </div>
     </div>
 
-    <!-- FOOTER -->
+
+    <!-- COMPONENT: FOOTER -->
     <footer class="footer">
         <div class="footer__topLevel footer--lateralPadding">
             <div class="footer__links">
@@ -89,15 +222,15 @@
               <a class="footer__link" href="">lorem</a>
               <a class="footer__link" href="">lorem</a>
             </div>
-            <div class="footer__socialMedia">
+            <div class="socialMedia">
                 <a href="#">
-                    <img src="./img/Facebook.png" alt="Logo de Facebook" />
+                    <img src="./img/Facebook.png" alt="Logo Facebook">
                 </a>
                 <a href="#">
-                    <img src="./img/Instagram.png" alt="Logo de Instagram" />
+                    <img src="./img/Instagram.png" alt="Logo Instagram">
                 </a>
                 <a href="#">
-                    <img src="./img/Twitter.png" alt="Logo de Twitter" />
+                    <img src="./img/Twitter.png" alt="Logo Twitter">
                 </a>
             </div>
         </div>
@@ -105,5 +238,6 @@
         <p>Todos los derechos reservados ™ 2021</p>
       </div>
     </footer>
+    <script src="./js/item.js"></script>
   </body>
 </html>

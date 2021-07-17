@@ -4,6 +4,9 @@
 @import url(../css/main.css);
 @import url(../css/card.css);
 @import url(../css/footer.css);
+@import url(../css/cardFoods.css);
+@import url(../css/item.css);
+@import url(../css/socialMedia.css);
 
 :root {
     --fontBase: 'DM Sans', sans-serif;
@@ -18,6 +21,10 @@
 
 body {
     font-family: var(--fontBase);
+}
+
+h1,h2,h3 {
+    margin: 0;
 }
 
 p {

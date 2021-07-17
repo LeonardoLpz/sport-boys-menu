@@ -38,11 +38,6 @@
     padding-inline-end: 0;
 }
 
-.footer__socialMedia {
-    display: flex;
-    gap: 40px;
-}
-
 /* Sección gris oscuro */
 .footer_bottomLevel {
     background-color: var(--grisOscuro);
