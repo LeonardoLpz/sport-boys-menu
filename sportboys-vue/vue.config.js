@@ -2,5 +2,5 @@ const path = require("path");
 
 module.exports = {
   publicPath: "/",
-  outputDir: path.resolve(__dirname, "./menu")
+  outputDir: path.resolve(__dirname, "../menu")
 };
