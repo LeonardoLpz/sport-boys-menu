@@ -1,0 +1,50 @@
+.cardFoods {  
+  padding: 4px;
+  box-shadow: 20px 30px 50px rgba(0, 0, 0, 0.25);
+}
+
+.cardFoods__image {
+  margin-block-start: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.cardFoods__title {
+  text-transform: uppercase;
+  font: bold 20px/50px var(--fontBase);
+  color: var(--red);
+}
+
+.cardFoods__title::after {
+  content: "";
+  width: 25%;
+  height: 4px;
+  background-color: var(--red);
+  position: absolute;
+  display: block;
+  z-index: -1;
+}
+
+.cardFoods__list {
+  margin-block-start: 15px;
+}
+
+@media (min-width: 768px) {
+  .cardFoods {
+    max-width: 100%;
+    display: flex;
+    gap: 15px;
+    padding: 50px;
+    border-radius: 4px;
+  }
+
+  .cardFoods__description {
+    width: 350px
+  }
+
+  .cardFoods__image {
+    order: 2;
+  }
+}
