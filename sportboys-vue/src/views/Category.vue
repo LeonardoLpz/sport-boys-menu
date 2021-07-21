@@ -2,7 +2,7 @@
   <div>
     <menu-card 
       :category='categoryTitle'
-      :imageUrl='categoryImg'
+      :imgUrl='categoryImg'
     />
   </div>
 </template>
@@ -14,7 +14,7 @@ export default {
   components: { MenuCard },
   data(){
     return {
-      categoryImg:'@/assets/img/image_browser.jpg',
+      categoryImg:require('@/assets/img/image_browser.jpg'),
       categoryTitle:'Aperitivos'
     }
   }

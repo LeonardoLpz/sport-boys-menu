@@ -2,7 +2,7 @@
   <!-- COMPONENT: CARD CATEGORÍA -->
   <div class="card">
     <img
-      src="imgUrl"
+      :src="imgUrl"
       alt="Imagen que representa una categoría"
       class="card__image"
     />
