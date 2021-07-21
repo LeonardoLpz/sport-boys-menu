@@ -1,0 +1,40 @@
+details > summary {
+    list-style: none;
+}
+
+.item {
+    background: linear-gradient(135deg, var(--dorado),var(--bordeClaro) 75%, var(--dorado));
+    border: 2px solid white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.item__details {
+    width: 100%;
+}
+
+.item__title {
+    margin: 4px;
+    padding: 6px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.item__title:hover {
+    background-color: transparent;
+}
+
+.item__description {
+    background-color: var(--dorado);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.item__ingredients {
+    margin-block-end: 20px;
+}
+
+.item__price {
+    text-align: right;
+}
