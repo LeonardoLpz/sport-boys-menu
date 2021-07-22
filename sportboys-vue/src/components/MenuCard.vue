@@ -1,6 +1,8 @@
 <template>
   <!-- COMPONENT: CARD CATEGORÍA -->
-  <div class="card">
+  <div 
+    v-on:click="toPlatillos"
+    class="card">
     <img
       :src="imgUrl"
       alt="Imagen que representa una categoría"
@@ -16,7 +18,12 @@ export default {
   props: [
      'imgUrl',
     'category'
-  ]
+  ],
+  methods: {
+  toPlatillos() {
+    this.$router.push('/platillos')
+  }
+}
   
 }
 </script>

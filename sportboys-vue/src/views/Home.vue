@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <category/>
+    <category/>
   </div>
 </template>
 
