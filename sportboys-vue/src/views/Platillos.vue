@@ -6,7 +6,6 @@
 
 <script>
 import PlatilloCard from '@/components/PlatilloCard.vue'
-// @ is an alias to /src
 
 export default {
   name: 'Platillos',

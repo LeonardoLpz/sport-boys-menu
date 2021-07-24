@@ -9,6 +9,7 @@
 
 <script>
 import MenuCard from '@/components/MenuCard.vue'
+console.log(platillosEconomicos)
 export default {
   name:'Category',
   components: { MenuCard },
