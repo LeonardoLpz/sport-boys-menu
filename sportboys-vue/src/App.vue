@@ -1,10 +1,6 @@
 <template>
   <div id="app">
     <menu-header/>
-    <div id="nav">
-      <router-link to="/">Home</router-link>
-      <router-link to="/platillos">Platillos</router-link> |
-    </div>
     <router-view/>
     <menu-footer/>
   </div>

@@ -1,0 +1,8 @@
+.home{
+    position: relative;
+    height: calc(100vh - 188px);
+    top: 20px;
+    padding:16px;
+    overflow:scroll;
+    box-sizing: border-box;
+}

@@ -7,12 +7,16 @@
 /* Para dar margin top al footer */
 .footer {
     margin-block-start: 50px;
+    position:absolute;
+    bottom: 0;
+    width:100vw;
+
 }
 
 /* Sección gris claro */
 .footer__topLevel {
     background-color: var(--grisClaro);
-    height: 145px;
+    height: 60px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -41,8 +45,8 @@
 /* Sección gris oscuro */
 .footer_bottomLevel {
     background-color: var(--grisOscuro);
-    height: 50px;
-    font: 16px var(--fontBase);
+    height: 30px;
+    font: 12px var(--fontBase);
     color: var(--white);
     text-align: center;
     display: flex;

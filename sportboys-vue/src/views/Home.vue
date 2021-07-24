@@ -1,18 +1,33 @@
 <template>
   <div class="home">
-    <category/>
-    <category/>
+      <menu-card 
+      :category='categoryTitle'
+      :imgUrl='categoryImg'
+    />
+    <menu-card 
+      :category='categoryTitle'
+      :imgUrl='categoryImg'
+    />
+    <menu-card 
+      :category='categoryTitle'
+      :imgUrl='categoryImg'
+    />
   </div>
 </template>
 
 <script>
-import Category from '@/views/Category.vue'
-// @ is an alias to /src
+import MenuCard from '@/components/MenuCard.vue'
 
 export default {
   name: 'Home',
   components: {
-    Category
+    MenuCard 
+  },
+  data(){
+    return {
+      categoryImg:require('@/assets/img/image_browser.jpg'),
+      categoryTitle:'Aperitivos'
+    }
   }
 }
 </script>
