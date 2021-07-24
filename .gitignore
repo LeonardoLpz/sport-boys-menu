@@ -2,7 +2,7 @@
 .js.map
 /dist
 /sportboys-vue/node_modules/
-
+/.firebase/*
 # Log files
 npm-debug.log*
 yarn-debug.log*
