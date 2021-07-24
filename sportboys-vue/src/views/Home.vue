@@ -12,6 +12,14 @@
       :category='categoryTitle'
       :imgUrl='categoryImg'
     />
+     <menu-card 
+      :category='categoryTitle'
+      :imgUrl='categoryImg'
+    />
+     <menu-card 
+      :category='categoryTitle'
+      :imgUrl='categoryImg'
+    />
   </div>
 </template>
 

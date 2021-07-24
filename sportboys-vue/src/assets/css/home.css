@@ -6,3 +6,10 @@
     overflow:scroll;
     box-sizing: border-box;
 }
+@media screen and (min-width:768px) {
+    .home{
+        display:grid;
+        grid-template-columns: repeat( 3, minmax(100px, 1fr) );
+        grid-column-gap: 16px;
+    }
+}

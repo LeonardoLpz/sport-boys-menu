@@ -55,7 +55,7 @@
 
 @media (min-width: 768px) {
     .footer__topLevel {
-        height: 100px;
+        height: 60px;
         flex-direction: row;
         justify-content: space-between;
     }

@@ -46,7 +46,8 @@
     }
 
     .header .nav-sections {
-        display: flex;
+        /*display: flex;*/
+        display: none;
         gap: 40px;
     }
 
