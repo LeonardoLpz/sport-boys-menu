@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-      <div v-for="(category,index) in menuData"> 
+      <div v-for="(category,index) in menuData" :key="index"> 
         <menu-card 
           :category='category.category'
           :imgUrl='categoryImg'
@@ -11,7 +11,7 @@
 
 <script>
 import MenuCard from '@/components/MenuCard.vue'
-import { platillosEconomicos, combinaPlatos} from '@/services/menu.js'
+import { menu } from '@/services/menu.js'
 
 export default {
   name: 'Home',
@@ -21,15 +21,8 @@ export default {
   data(){
     return {
       categoryImg:require('@/assets/img/image_browser.jpg'),
-      categoryTitle:'Aperitivos',
-      menuData:[],
+      menuData: menu
     }
-  },
-   beforeMount: function () {
-    
-    this.menuData.push(platillosEconomicos)
-    this.menuData.push(combinaPlatos)
-    console.log(this.menuData)
   }
 }
 </script>
